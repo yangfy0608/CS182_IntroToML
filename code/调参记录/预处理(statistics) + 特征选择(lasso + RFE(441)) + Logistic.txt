@@ -1,0 +1,13 @@
+06/19 23:37:30
+method: 预处理(statistics) + 特征选择(lasso + RFE(441)) + Logistic
+
+params: 
+	model : Logistic
+	epoch : 5
+
+result: 
+	score : 0.7657706545724141
+	gini : 0.9090083316791475
+	4% recall : 0.6225329774656808
+
+--------------------------------------------------

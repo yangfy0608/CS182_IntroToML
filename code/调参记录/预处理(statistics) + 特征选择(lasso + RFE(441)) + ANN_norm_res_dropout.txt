@@ -1,0 +1,14 @@
+06/20 00:40:30
+method: 预处理(statistics) + 特征选择(lasso + RFE(441)) + ANN_norm_res_dropout
+
+params: 
+	model : ANN_norm_res_dropout
+	batch_size : 4196
+	epoch : 20
+
+result: 
+	score : 0.777731258898417
+	gini : 0.9152715835769223
+	4% recall : 0.6401909342199119
+
+--------------------------------------------------

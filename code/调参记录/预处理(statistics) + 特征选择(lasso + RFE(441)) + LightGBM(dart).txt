@@ -1,0 +1,56 @@
+06/18 04:59:23
+method: 预处理(statistics) + 特征选择(lasso + RFE(441)) + LightGBM(dart)
+
+params: 
+	random_state : 0
+	nthread : 6
+	verbosity : -1
+	device : gpu
+	objective : binary
+	metric : binary_logloss
+	boosting : dart
+	drop_rate : 0.2
+	early_stopping_round : 100
+	num_iteration : 4000
+	max_bin : 255
+	max_depth : 5
+	min_child_samples : 100
+	subsample : 0.8
+	colsample_bytree : 0.6
+	learning_rate : 0.05
+	lambda_l2 : 5
+
+result: 
+	score : 0.7905299247839588
+	gini : 0.9224815388458916
+	4% recall : 0.658578310722026
+
+--------------------------------------------------
+06/19 22:01:06
+method: 预处理(statistics) + 特征选择(lasso + RFE(441)) + LightGBM(dart)
+
+params: 
+	random_state : 0
+	nthread : 6
+	verbosity : -1
+	device : gpu
+	objective : binary
+	metric : binary_logloss
+	boosting : dart
+	drop_rate : 0.1
+	early_stopping_round : 100
+	num_iteration : 4000
+	max_bin : 255
+	max_depth : 5
+	min_child_samples : 100
+	subsample : 0.8
+	colsample_bytree : 0.6
+	learning_rate : 0.05
+	lambda_l2 : 5
+
+result: 
+	score : 0.7908082592058001
+	gini : 0.9225157347945881
+	4% recall : 0.6591007836170121
+
+--------------------------------------------------
